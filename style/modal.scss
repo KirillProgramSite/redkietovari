@@ -1,0 +1,58 @@
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.modal__wrapper{
+    padding-top: 35px;
+    text-align: center;
+    height: 640px;
+    background-color: #fff;
+}
+
+.modal__info{
+    padding-bottom: 60px;
+
+    h1{
+        @include h1(8px);
+    }
+
+    p{
+        font-family: $text;
+        font-size: 24px;
+        line-height: 120.69%;
+        width: 916px;
+        margin: 0 auto;
+    }
+}
+
+.modal__whatsapp{
+    @include wrapper();
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 107px;
+    
+    h1{
+        @include h1(0px);
+    }
+
+    p{
+        font-family: $text;
+        font-size: 24px;
+        line-height: 120.69%;
+    }
+}
+
+.btn-close{
+    @include h1(0px);
+    color:white;
+    padding: 11px 168px;
+    background-color:#FF8A00;
+    border:none;
+    border-radius: 16px;
+}

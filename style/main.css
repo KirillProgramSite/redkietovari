@@ -1,0 +1,482 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic);
+body {
+  min-width: 1260px;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.container {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header.header {
+  padding-top: 28px;
+  border-bottom: 3px solid #000000;
+}
+
+.header__colums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__menu {
+  position: relative;
+  top: 0;
+}
+
+.header__menu {
+  margin-top: -15px;
+}
+
+.header__menu ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__menu ul li {
+  padding-left: 40px;
+  font-size: 24px;
+}
+.header__menu ul a {
+  color: black;
+  text-decoration: none;
+  font-family: Ubuntu;
+}
+.header__menu ul a .active {
+  color: #FF8A00;
+}
+
+.menu-item:nth-child(1) {
+  padding-left: 0;
+}
+
+.header__phone a {
+  color: #FF8A00;
+  text-decoration: none;
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120.69%;
+  /* or 29px */
+  letter-spacing: 0.055em;
+}
+
+.about-me {
+  padding-top: 70px;
+}
+.about-me h1 {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 15px;
+  color: #FF8A00;
+}
+.about-me p {
+  width: 601px;
+  font-family: Ubuntu;
+  font-size: 24px;
+  line-height: 120.69%;
+  text-align: center;
+}
+
+.about-me__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.call__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.call {
+  padding-top: 95px;
+}
+
+.call h1 {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 38px;
+  color: #FF8A00;
+}
+
+.call__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.call__info img {
+  max-width: 282px;
+  max-height: 261px;
+}
+.call__info p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  padding-left: 46px;
+  width: 800px;
+  padding-top: 95px;
+}
+
+.buy {
+  padding-top: 156px;
+}
+.buy h1 {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 15px;
+  color: #FF8A00;
+}
+.buy p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  line-height: 120.69%;
+}
+
+.info p {
+  width: 601px;
+}
+
+.buy__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.buy__ul {
+  text-align: left;
+  padding-bottom: 69px;
+  padding-top: 26px;
+}
+
+.buy__ul-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wA {
+  color: #24FF00;
+}
+
+.number {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 0px;
+  color: #FF8A00;
+  padding-right: 7px;
+}
+
+.product {
+  padding-top: 62px;
+}
+
+.product__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 62px;
+}
+
+.product__card {
+  width: 270px;
+  height: 457px;
+  border: 4px solid #000000;
+  border-radius: 16px;
+  margin-right: 60px;
+  margin-bottom: 62px;
+}
+
+.product__card-content {
+  padding-left: 13px;
+}
+
+.product__card-img {
+  padding: 37px 64px;
+  border-bottom: 3px solid #000000;
+}
+
+.product__card-info {
+  padding-top: 17px;
+}
+.product__card-info h1 {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 1px;
+  color: #FF8A00;
+  font-size: 24px;
+}
+.product__card-info p {
+  font-family: Ubuntu;
+  font-size: 16px;
+  line-height: 120.69%;
+  text-align: left;
+}
+
+.product__card-price {
+  padding-top: 23px;
+}
+.product__card-price strong {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  color: #48BE00;
+}
+
+.product__card-link {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.product__card-link a {
+  font-family: Ubuntu;
+  font-size: 24px;
+  line-height: 120.69%;
+  color: #FF8A00;
+  text-decoration: none;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.modal__wrapper {
+  padding-top: 35px;
+  text-align: center;
+  height: 640px;
+  background-color: #fff;
+}
+
+.modal__info {
+  padding-bottom: 60px;
+}
+.modal__info h1 {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 8px;
+  color: #FF8A00;
+}
+.modal__info p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  line-height: 120.69%;
+  width: 916px;
+  margin: 0 auto;
+}
+
+.modal__whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  padding-bottom: 107px;
+}
+.modal__whatsapp h1 {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 0px;
+  color: #FF8A00;
+}
+.modal__whatsapp p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  line-height: 120.69%;
+}
+
+.btn-close {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 0px;
+  color: #FF8A00;
+  color: white;
+  padding: 11px 168px;
+  background-color: #FF8A00;
+  border: none;
+  border-radius: 16px;
+}

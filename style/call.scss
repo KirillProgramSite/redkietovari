@@ -1,0 +1,28 @@
+.call__wrapper{
+    @include wrapper();
+}
+
+.call{
+    padding-top: 95px;
+}
+
+.call h1{
+    @include h1(38px);
+}
+
+.call__info{
+    display: flex;
+
+    img{
+        max-width: 282px;
+        max-height: 261px;
+    }
+
+    p{
+        font-family: $text;
+        font-size: 24px;
+        padding-left: 46px;
+        width: 800px;
+        padding-top: 95px;
+    }
+}

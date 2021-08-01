@@ -1,0 +1,41 @@
+.buy{
+    padding-top: 156px;
+
+    h1{
+        @include h1(15px);
+    }
+
+    p{
+        font-family: $text;
+        font-size: 24px;
+        line-height: 120.69%;
+    }
+}
+
+.info p{
+    width: 601px;
+}
+
+.buy__wrapper{
+    @include wrapper();
+    text-align: center;
+}
+
+.buy__ul{
+    text-align: left;
+    padding-bottom: 69px;
+    padding-top: 26px;
+}
+
+.buy__ul-item{
+    display: flex;
+    align-items: center;
+}
+
+.wA{
+    color:#24FF00;
+}
+.number{
+    @include h1(0px);
+    padding-right: 7px;
+}

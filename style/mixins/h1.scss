@@ -1,0 +1,9 @@
+@mixin h1($distance) {
+    font-family: $main;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120.69%;
+    letter-spacing: 0.055em;
+    padding-bottom: $distance;
+    color:#FF8A00;
+}
