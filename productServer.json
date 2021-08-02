@@ -1,24 +1,21 @@
 [
     {
         "img": "https://i3.stat01.com/2/3818/138179114/afacdb/fitnes-braslet-xiaomi-redmi-band-mi-band-4c-01-jpg.jpg",
-        "id": "00DSAK",
         "name": "Умные часы Xiomi",
         "price": "3000 руб",
         "des": "Умные часы которые помогут вам в работе"
     },
     {
         "img": "https://i3.stat01.com/2/3818/138179114/afacdb/fitnes-braslet-xiaomi-redmi-band-mi-band-4c-01-jpg.jpg",
-        "id": "00DSAK",
-        "name": "Умные часы Xiomi",
+        "name": "Умные часы Xiom",
         "price": "3000 руб",
         "des": "Умные часы которые помогут вам в работе"
     },
     {
-        "img": "https://i3.stat01.com/2/3818/138179114/afacdb/fitnes-braslet-xiaomi-redmi-band-mi-band-4c-01-jpg.jpg",
-        "id": "00DSAK",
-        "name": "Умные часы Xiomi",
-        "price": "3000 руб",
-        "des": "Умные часы которые помогут вам в работе"
+        "img": "https://fight-space.ru/30412-large_default/krossovki-fila-wind-zero.jpg",
+        "name": "Кроссовки",
+        "price": "5000 руб",
+        "des": "Кроссовки спортивные"
     }
     
     
