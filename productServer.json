@@ -1,22 +1,89 @@
 [
     {
-        "img": "https://i3.stat01.com/2/3818/138179114/afacdb/fitnes-braslet-xiaomi-redmi-band-mi-band-4c-01-jpg.jpg",
-        "name": "Умные часы Xiomi",
-        "price": "3000 руб",
-        "des": "Умные часы которые помогут вам в работе"
+        "img": "https://www.postavshhiki.ru/images/com_adsmanager3/contents/rozovo-seraya-shal-18808_113375_1.jpg",
+        "name": "Розово серая шаль",
+        "price": "1200 руб",
+        "des": "Невесомая, большая (140х140 см.), женская очень мягкая и теплая"
     },
     {
-        "img": "https://i3.stat01.com/2/3818/138179114/afacdb/fitnes-braslet-xiaomi-redmi-band-mi-band-4c-01-jpg.jpg",
-        "name": "Умные часы Xiom",
-        "price": "3000 руб",
-        "des": "Умные часы которые помогут вам в работе"
+        "img": "https://www.postavshhiki.ru/images/com_adsmanager3/contents/sumka-mnogo-karmanov_113373_1.jpg",
+        "name": "Женская сумка",
+        "price": "2300 руб",
+        "des": "Великолепная, женская сумка. Сумка имеет очень много карманов и отделений."
     },
     {
-        "img": "https://fight-space.ru/30412-large_default/krossovki-fila-wind-zero.jpg",
-        "name": "Кроссовки",
-        "price": "5000 руб",
-        "des": "Кроссовки спортивные"
+        "img": "https://www.postavshhiki.ru/images/com_adsmanager3/contents/organajzer-dlya-dokumentov-vsej-semi_173924_1_94.jpg",
+        "name": "Сумка для документов",
+        "price": "1500 руб",
+        "des": "Может использоваться для хранения всех ваших гаджетов и документов."
+    },
+    {
+        "img": "https://i.siteapi.org/FQA-TwhJ2rxTs8QLv-SvzRLhYUM=/fit-in/330x0/top/filters:format(webp)/be4237b455b24cb.s2.siteapi.org/img/thunnh3eom8g0k840ocwowgg4o4sos",
+        "name": "Платье женское",
+        "price": "10000 руб",
+        "des": "Ткань: шифон.Подкладка: креп шифон.Размеры:S,M,L"
+    },
+    {
+        "img": "https://i.siteapi.org/O5eq9e4QW2v3wWGokEzWJI4qIJM=/fit-in/1024x768/center/top/be4237b455b24cb.s2.siteapi.org/img/lb709wir3nkwssc40osckkck4skc0k",
+        "name": "Платье женское",
+        "price": "10500 руб",
+        "des": "Ткань: шифон.Подкладка: креп шифон.Размеры:S,M,L"
+    },
+    {
+        "img": "https://i.siteapi.org/Mjk4V3pLOZ5yg18iu6pNwnWUyHE=/fit-in/330x0/top/filters:format(webp)/be4237b455b24cb.s2.siteapi.org/img/d6e2amti0rkk4w008gso8k0oogcg0s",
+        "name": "Платье женское",
+        "price": "10000 руб",
+        "des": "Ткань: шифон.Подкладка: креп шифон.Размеры:S,M,L"
+    },
+    {
+        "img": "https://i.siteapi.org/fq7q39EZ27vvYwjBo5lQQTtwMlQ=/fit-in/330x0/top/filters:format(webp)/be4237b455b24cb.s2.siteapi.org/img/2mu8tx5xwlq8gwsoos4w08okwogk8s",
+        "name": "Платье-рубашка",
+        "price": "8600 руб",
+        "des": "Материал: замша. Размеры: S-M, M-L. Цвета: серый, бежевый."
+    },
+    {
+        "img": "https://i.siteapi.org/W5yZv2p6RYfc8biXbsdhW__PC98=/fit-in/330x0/top/filters:format(webp)/be4237b455b24cb.s2.siteapi.org/img/9ewkqdrt8tgk0wc4kkckk8408408o8",
+        "name": "Костюм",
+        "price": "8000 руб",
+        "des": "Ткань: ангора меланж.Цвета: серый, беж.Размеры: XS, S, M "
+    },
+    {
+        "img": "https://i.siteapi.org/9YzulpjDWszXf0UthmM4feN7CKA=/fit-in/330x0/top/filters:format(webp)/be4237b455b24cb.s2.siteapi.org/img/kxp4f4zy2a88ww4s84gw0gkssc08sk",
+        "name": "Брюки",
+        "price": "6000 руб",
+        "des": "Материал: креп. Размеры: ХS-S, М, L-XL. Длина: внеш. 86 см, внутр. 61 см."
+    },
+    {
+        "img": "https://i.siteapi.org/reJPAtZQyh2cOAFbDVW-4l128Os=/fit-in/330x0/top/filters:format(webp)/be4237b455b24cb.s2.siteapi.org/img/o63b8hnq8pw0c0k0ko0s88gccc800o",
+        "name": "Рубашка Бантики",
+        "price": "6000 руб",
+        "des": "Материал: лен. Цвета: черный, розовый, белый. Размер: S, M, L"
+    },
+    {
+        "img": "https://i.siteapi.org/4IzqE7l3Ev7X1KH9_W3fZG6ZUjk=/fit-in/330x0/top/filters:format(webp)/s2.siteapi.org/be4237b455b24cb/img/2ausfezwd15wg4sgck80k0gs88ggg8",
+        "name": "Костюм",
+        "price": "10000 руб",
+        "des": "Костюм из шерстяного трикотажа. Цвета: Синий, черный. Размер: XS-S, M-L"
+    },
+    {
+        "img": "https://i.siteapi.org/JgqHo1oLssSoHb19sswGgs_tJx8=/fit-in/330x0/top/filters:format(webp)/s2.siteapi.org/be4237b455b24cb/img/9ae96u8jl78cowks0o0s8sw4wks04s",
+        "name": "Брюки",
+        "price": "10000 руб",
+        "des": "Костюм из шерстяного трикотажа. Цвета: Синий, черный. Размер: XS-S, M-L"
+    },
+    {
+        "img": "https://i.siteapi.org/iWz_Yf_MlyLlrdWQRj4SVo7b4pk=/fit-in/330x0/top/filters:format(webp)/s2.siteapi.org/be4237b455b24cb/img/jsvufld2mr4ok4css8gckkggwwcc0g",
+        "name": "Костюм",
+        "price": "10000 руб",
+        "des": "Костюм из шерстяного трикотажа. Цвета: Синий, черный. Размер: XS-S, M-L"
+    },
+    {
+        "img": "https://i.siteapi.org/PPLwubLYimcwd-fDz4l__MzCgNA=/fit-in/330x0/top/filters:format(webp)/s2.siteapi.org/be4237b455b24cb/img/9c1fe83lglk440s8w8w4c448oscs04",
+        "name": "Костюм",
+        "price": "10000 руб",
+        "des": "Костюм из шерстяного трикотажа. Цвета: Синий, черный. Размер: XS-S, M-L"
     }
+    
     
     
 ]

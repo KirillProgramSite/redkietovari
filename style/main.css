@@ -239,8 +239,8 @@ header.header {
 .call__info p {
   font-family: Ubuntu;
   font-size: 24px;
-  padding-left: 46px;
   width: 800px;
+  text-align: center;
   padding-top: 95px;
 }
 
@@ -370,9 +370,6 @@ header.header {
   text-align: left;
 }
 
-.product__card-price {
-  padding-top: 23px;
-}
 .product__card-price strong {
   font-family: Roboto Condensed;
   font-weight: bold;
@@ -383,7 +380,6 @@ header.header {
 }
 
 .product__card-link {
-  padding-top: 20px;
   padding-left: 50px;
 }
 .product__card-link a {
