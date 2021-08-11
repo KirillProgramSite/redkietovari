@@ -370,6 +370,11 @@ header.header {
   text-align: left;
 }
 
+.product__card-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .product__card-price strong {
   font-family: Roboto Condensed;
   font-weight: bold;
@@ -388,6 +393,16 @@ header.header {
   line-height: 120.69%;
   color: #FF8A00;
   text-decoration: none;
+}
+
+.sale {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120.69%;
+  text-decoration: line-through;
+  color: #A19292;
 }
 
 .modal {
