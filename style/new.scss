@@ -1,0 +1,34 @@
+.new-product__wrapper{
+    @include wrapper();
+
+    h1{
+        @include h1(43px);
+    }
+
+    p{
+        padding-top: 43px;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 120.69%;
+    }
+
+    span{
+        @include h1(0);
+    }
+    
+}
+
+.new-product__img{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        padding-left: 43px;
+
+        &:nth-child(1){
+            padding-left: 0;
+        }
+    }
+}

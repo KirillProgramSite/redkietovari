@@ -19,6 +19,10 @@ body{
     flex-direction: column;
 }
 
+.hide{
+    display: none;
+}
+
 
 
 @import "header";
@@ -27,3 +31,5 @@ body{
 @import "buy";
 @import "product";
 @import "modal";
+@import "sale";
+@import "new";

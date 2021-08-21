@@ -31,28 +31,38 @@
     }
 }
 
-.modal__whatsapp{
-    @include wrapper();
+.modal__img{
     display: flex;
-    flex-direction: row;
-    padding-bottom: 107px;
-    
-    h1{
-        @include h1(0px);
-    }
+    justify-content: center;
+        .modal__img-item{
+            padding-left: 20px;
 
-    p{
-        font-family: $text;
-        font-size: 24px;
-        line-height: 120.69%;
-    }
+            &:nth-child(0){
+                padding-left: 0;
+            }
+        }
+            p{
+                font-family: $text;
+                font-size: 24px;
+                line-height: 120.69%;
+
+                &:nth-child(2){
+                    width: 341px;
+                    text-align: left;
+                }
+            }
+                img{
+                    margin: 0 auto;
+                    padding-bottom: 42px;
+                }
 }
 
-.btn-close{
+.modal__phone p{
     @include h1(0px);
-    color:white;
-    padding: 11px 168px;
-    background-color:#FF8A00;
-    border:none;
-    border-radius: 16px;
+    padding-top: 42px;
+}
+
+.modal__close{
+    position: absolute;
+    right: 36px;
 }

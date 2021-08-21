@@ -1,16 +1,14 @@
-//Получение БД
 async function getData(){
     let dataProduct = await fetch('productServer.json');
     let contentData = await dataProduct.json();
+    contentData = contentData.splice(3,3)
 
     let list = document.querySelector('.product__row');
 
 
     let key;
 
-    //Вывод товара
     for(key in contentData) {
-        //Если есть скидка
         if(contentData[key].sale){
             list.innerHTML += `
             <div class="product__card">
@@ -30,7 +28,6 @@ async function getData(){
             </div>
         </div>
     `
-    //Если нет скидки
         } else{
             list.innerHTML += `
             <div class="product__card">
@@ -47,11 +44,9 @@ async function getData(){
             <div class="product__card-link">
                 <a href="" class="open__modal">Поподробней</a>
             </div>
-        </div> 
+        </div>
     `
         }
-
-    //Вывод модального окна
     let modal = document.querySelector('.modal'),
         linkOpenModal = document.querySelectorAll('.open__modal'),
         closeBtn = document.querySelector('.modal__close');
@@ -68,9 +63,6 @@ async function getData(){
         });
     
     }
-
-    //Категория товара
-
     
 }
 

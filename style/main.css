@@ -443,7 +443,62 @@ header.header {
   margin: 0 auto;
 }
 
-.modal__whatsapp {
+.modal__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.modal__img .modal__img-item {
+  padding-left: 20px;
+}
+.modal__img .modal__img-item:nth-child(0) {
+  padding-left: 0;
+}
+.modal__img p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  line-height: 120.69%;
+}
+.modal__img p:nth-child(2) {
+  width: 341px;
+  text-align: left;
+}
+.modal__img img {
+  margin: 0 auto;
+  padding-bottom: 42px;
+}
+
+.modal__phone p {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 0px;
+  color: #FF8A00;
+  padding-top: 42px;
+}
+
+.modal__close {
+  position: absolute;
+  right: 36px;
+}
+
+.sale-title h1 {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120.69%;
+  letter-spacing: 0.055em;
+  padding-bottom: 65px;
+  color: #FF8A00;
+  text-align: center;
+}
+
+.new-product__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,37 +512,45 @@ header.header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  padding-bottom: 107px;
 }
-.modal__whatsapp h1 {
+.new-product__wrapper h1 {
   font-family: Roboto Condensed;
   font-weight: bold;
   font-size: 36px;
   line-height: 120.69%;
   letter-spacing: 0.055em;
-  padding-bottom: 0px;
+  padding-bottom: 43px;
   color: #FF8A00;
 }
-.modal__whatsapp p {
+.new-product__wrapper p {
+  padding-top: 43px;
   font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
   font-size: 24px;
   line-height: 120.69%;
 }
-
-.btn-close {
+.new-product__wrapper span {
   font-family: Roboto Condensed;
   font-weight: bold;
   font-size: 36px;
   line-height: 120.69%;
   letter-spacing: 0.055em;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   color: #FF8A00;
-  color: white;
-  padding: 11px 168px;
-  background-color: #FF8A00;
-  border: none;
-  border-radius: 16px;
+}
+
+.new-product__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.new-product__img img {
+  padding-left: 43px;
+}
+.new-product__img img:nth-child(1) {
+  padding-left: 0;
 }

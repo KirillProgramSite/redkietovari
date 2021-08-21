@@ -1,20 +1,17 @@
 [
     {
-        "img": "https://www.postavshhiki.ru/images/com_adsmanager3/contents/rozovo-seraya-shal-18808_113375_1.jpg",
         "name": "Розово серая шаль",
         "price": "1000 руб",
         "des": "Невесомая, большая (140х140 см.), женская очень мягкая и теплая",
         "sale": "1200руб"
     },
     {
-        "img": "https://www.postavshhiki.ru/images/com_adsmanager3/contents/sumka-mnogo-karmanov_113373_1.jpg",
         "name": "Женская сумка",
         "sale": "2300 руб",
         "price": "1300 руб",
         "des": "Великолепная, женская сумка. Сумка имеет очень много карманов и отделений."
     },
     {
-        "img": "https://www.postavshhiki.ru/images/com_adsmanager3/contents/organajzer-dlya-dokumentov-vsej-semi_173924_1_94.jpg",
         "name": "Сумка для документов",
         "sale": "1500 руб",
         "price": "500 руб",
